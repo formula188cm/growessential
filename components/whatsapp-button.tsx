@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 
-const WHATSAPP_NUMBER = "8989252740"
+const WHATSAPP_NUMBER = "7304217506"
 
 export function WhatsAppButton() {
   const openWhatsApp = () => {
