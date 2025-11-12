@@ -13,7 +13,7 @@ interface CarouselSlide {
 const defaultSlides: CarouselSlide[] = [
   {
     id: 1,
-    title: "Grow Natural Serum",
+    title: "Grow Essence Serum",
     description: "Cold-pressed botanical blend for stronger, thicker hair",
     image: "/1.jpeg",
     badge: "Customer Favorite",

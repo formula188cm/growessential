@@ -26,7 +26,7 @@ export default function ProductPage() {
   const productSlides = [
     {
       id: 1,
-      title: "Grow Natural Serum",
+      title: "Grow Essence Serum",
       description: "Ultra-concentrated botanical blend for rooted strength",
       image: "/1.jpeg",
       badge: "Customer Favorite",
@@ -101,7 +101,7 @@ export default function ProductPage() {
               {/* Title */}
               <div>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-2 md:mb-4 leading-tight">
-                Grow Natural
+                Grow Essence
                 </h1>
                 <p className="text-base md:text-lg text-muted-foreground font-medium">
                 Professional Grade Hair Growth Serum
@@ -213,10 +213,10 @@ export default function ProductPage() {
             {/* Main Description */}
             <div className="lg:col-span-2 space-y-6 md:space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6">About Grow Natural</h2>
+                <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6">About Grow Essence</h2>
                 <div className="space-y-3 md:space-y-4 text-sm md:text-base text-muted-foreground leading-relaxed">
                   <p>
-                  Grow Natural is a clinically formulated hair growth serum crafted to strengthen follicles, calm irritated scalps, and accelerate the regrowth cycle. Every batch combines traditional ayurvedic wisdom with modern trichology research.
+                  Grow Essence is a clinically formulated hair growth serum crafted to strengthen follicles, calm irritated scalps, and accelerate the regrowth cycle. Every batch combines traditional ayurvedic wisdom with modern trichology research.
                   </p>
                   <p>
                   Each ingredient is cold-pressed and triple-filtered to preserve active compounds that nourish roots, balance sebum production, and visibly enhance hair density.
@@ -386,7 +386,7 @@ export default function ProductPage() {
                   a: "Most users report noticing changes within 2-3 months of consistent daily use.",
                 },
                 {
-                  q: "Is Grow Natural safe?",
+                  q: "Is Grow Essence safe?",
                   a: "Yes, it's made from natural ingredients and third-party tested. Consult your doctor if you have medical conditions.",
                 },
               {
@@ -436,7 +436,7 @@ export default function ProductPage() {
               {
                 name: "Sahil",
                 text:
-                  "Tried everything else before—Grow Natural is the first serum that actually thickened my hairline.",
+                  "Tried everything else before—Grow Essence is the first serum that actually thickened my hairline.",
               },
               {
                 name: "Ritika",

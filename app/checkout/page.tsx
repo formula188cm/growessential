@@ -304,7 +304,7 @@ function CheckoutContent() {
 
                 <div className="space-y-3 md:space-y-4 pb-4 md:pb-6 border-b border-border mb-4 md:mb-6 text-sm md:text-base">
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Grow Natural Serum × {quantity}</span>
+                    <span className="text-muted-foreground">Grow Essence Serum × {quantity}</span>
                     <span className="font-semibold">₹{currentPrice > 0 ? totalPrice : "-"}</span>
                   </div>
                 </div>

@@ -27,7 +27,7 @@ function QRPaymentContent() {
   const razorpayLink = RAZORPAY_LINKS[totalNumber]
 
   const openWhatsApp = () => {
-    const message = `I have completed the payment for my Grow Natural order. Amount: ₹${total}`
+    const message = `I have completed the payment for my Grow Essence order. Amount: ₹${total}`
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, "_blank")
   }
 
@@ -45,7 +45,7 @@ function QRPaymentContent() {
           <div>
             <h1 className="text-4xl font-bold mb-2 premium-text">Razorpay Payment Link</h1>
             <p className="text-muted-foreground">
-              We process Grow Natural payments exclusively through Razorpay for secure UPI, card, and wallet checkout.
+              We process Grow Essence payments exclusively through Razorpay for secure UPI, card, and wallet checkout.
             </p>
           </div>
 
@@ -92,7 +92,7 @@ function QRPaymentContent() {
               Chat on WhatsApp
             </button>
             <a
-              href={`mailto:${SUPPORT_EMAIL}?subject=Grow Natural Payment Confirmation (₹${total})&body=Please find my payment confirmation attached. Order Amount: ₹${total}`}
+              href={`mailto:${SUPPORT_EMAIL}?subject=Grow Essence Payment Confirmation (₹${total})&body=Please find my payment confirmation attached. Order Amount: ₹${total}`}
               className="flex items-center justify-center gap-2 px-6 py-3 border border-primary text-primary rounded-lg font-semibold hover:bg-primary/5 transition-colors"
             >
               Email Support

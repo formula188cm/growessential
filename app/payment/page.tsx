@@ -29,7 +29,7 @@ function PaymentContent() {
   const razorpayLink = RAZORPAY_LINKS[totalNumber]
 
   const openWhatsApp = () => {
-    const message = `Hi, I need help with my Grow Natural order (₹${total})`
+    const message = `Hi, I need help with my Grow Essence order (₹${total})`
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, "_blank")
   }
 
@@ -44,7 +44,7 @@ function PaymentContent() {
             </div>
             <h1 className="text-3xl font-bold mb-4">Order Successful!</h1>
             <p className="text-muted-foreground mb-4">
-              Thank you for choosing Grow Natural. Our care team will reach out shortly with your order details and tracking.
+              Thank you for choosing Grow Essence. Our care team will reach out shortly with your order details and tracking.
             </p>
             <p className="text-2xl font-bold text-primary mb-4">₹{total}</p>
             <p className="text-sm text-muted-foreground mb-8">Quantity: {quantity}</p>

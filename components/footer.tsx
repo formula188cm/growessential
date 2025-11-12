@@ -8,7 +8,7 @@ export function Footer() {
               <div className="w-8 h-8 bg-primary-foreground rounded-sm flex items-center justify-center">
                 <span className="text-primary font-bold text-sm">G</span>
               </div>
-              <span className="font-bold">Grow Natural</span>
+              <span className="font-bold">Grow Essence</span>
             </div>
             <p className="text-sm opacity-80">Premium, plant-powered serum for stronger, thicker, fuller hair.</p>
           </div>

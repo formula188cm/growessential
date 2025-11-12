@@ -16,7 +16,7 @@ export function Navbar() {
             <div className="w-8 h-8 bg-primary rounded-sm flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-sm">G</span>
             </div>
-            <span className="font-bold text-lg hidden sm:block text-foreground">Grow Natural</span>
+            <span className="font-bold text-lg hidden sm:block text-foreground">Grow Essence</span>
           </Link>
 
           {/* Desktop Menu */}

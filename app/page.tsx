@@ -113,7 +113,7 @@ export default function Home() {
                 ✅ Guaranteed Hair Growth
               </h2>
               <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                Grow Natural is a cold-pressed botanical serum that reawakens dormant follicles, restores scalp balance, and delivers visible thickness in as little as 8 weeks.
+                Grow Essence is a cold-pressed botanical serum that reawakens dormant follicles, restores scalp balance, and delivers visible thickness in as little as 8 weeks.
               </p>
             </div>
           </div>
@@ -168,7 +168,7 @@ export default function Home() {
               Reach Your Full Hair Potential
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed px-2">
-              Grow Natural blends potent ayurvedic oils, vitamins, and antioxidants to anchor roots, reduce fall, and promote faster regrowth for men and women.
+              Grow Essence blends potent ayurvedic oils, vitamins, and antioxidants to anchor roots, reduce fall, and promote faster regrowth for men and women.
             </p>
 
             {/* Trust Badges - Mobile optimized */}
@@ -211,7 +211,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-10 md:mb-16 animate-fade-in-up">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4 premium-text px-2">
-              Why Choose Grow Natural?
+              Why Choose Grow Essence?
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-2">
             Our carefully selected natural ingredients work together to restore hair health, volume, and shine.
@@ -284,7 +284,7 @@ export default function Home() {
               {
                 name: "Sahil",
                 text:
-                  "Tried everything else before—Grow Natural is the first serum that actually thickened my hairline.",
+                  "Tried everything else before—Grow Essence is the first serum that actually thickened my hairline.",
               },
               {
                 name: "Ritika",
@@ -360,7 +360,7 @@ export default function Home() {
             href="/product"
             className="inline-block px-6 md:px-10 py-3 md:py-4 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-sm md:text-base"
           >
-            Get Grow Natural Now
+            Get Grow Essence Now
           </Link>
         </div>
       </section>

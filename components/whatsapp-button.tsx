@@ -6,7 +6,7 @@ const WHATSAPP_NUMBER = "8989252740"
 
 export function WhatsAppButton() {
   const openWhatsApp = () => {
-    const message = encodeURIComponent("Hi, I need help with Grow Natural")
+    const message = encodeURIComponent("Hi, I need help with Grow Essence")
     window.open(`https://wa.me/91${WHATSAPP_NUMBER}?text=${message}`, "_blank")
   }
 
