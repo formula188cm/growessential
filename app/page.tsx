@@ -76,7 +76,7 @@ export default function Home() {
       <Navbar />
 
       {/* Hero Carousel Section - reduced from full screen to moderate height */}
-      <section className="relative w-full h-96 sm:h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden bg-black">
+      <section className="relative w-full h-[460px] sm:h-[600px] md:h-[700px] lg:h-[820px] overflow-hidden bg-black">
         <div className="absolute inset-0">
           <ProductCarousel />
         </div>
@@ -113,7 +113,7 @@ export default function Home() {
                 ✅ Guaranteed Hair Growth
               </h2>
               <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Break the age barrier! Grow Essential is scientifically formulated to support hair regrowth, thickness, and shine for individuals over 21, delivering visible results you can trust.
+                Grow Natural is a cold-pressed botanical serum that reawakens dormant follicles, restores scalp balance, and delivers visible thickness in as little as 8 weeks.
               </p>
             </div>
           </div>
@@ -165,10 +165,10 @@ export default function Home() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center space-y-4 md:space-y-6 animate-fade-in-up">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight premium-text">
-            Reach Your Full Hair Potential
+              Reach Your Full Hair Potential
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed px-2">
-            Grow Essential uses 100% natural ingredients designed to strengthen hair follicles, reduce hair fall, and promote faster, healthier hair growth.
+              Grow Natural blends potent ayurvedic oils, vitamins, and antioxidants to anchor roots, reduce fall, and promote faster regrowth for men and women.
             </p>
 
             {/* Trust Badges - Mobile optimized */}
@@ -211,7 +211,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-10 md:mb-16 animate-fade-in-up">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4 premium-text px-2">
-            Why Choose Grow Essential?
+              Why Choose Grow Natural?
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-2">
             Our carefully selected natural ingredients work together to restore hair health, volume, and shine.
@@ -222,22 +222,22 @@ export default function Home() {
             {[
               {
                 icon: "🌿",
-                title: "100% Natural Ingredients",
+                title: "Cold-Pressed Botanicals",
                 description:
-                  "Formulated with pure, clinically-tested natural ingredients without harmful additives or fillers.",
+                  "Infused with bhringraj, rosemary, and onion seed oils to nourish scalp microbiome without harsh chemicals.",
                 delay: "0ms",
               },
               {
                 icon: "⚗️",
-                title: "Scientifically Formulated",
-                description: "Developed by experts to nourish hair roots, prevent breakage, and support optimal hair growth.",
+                title: "Clinic-Tested Results",
+                description: "Dermatologist-approved formulation proven to reduce hair fall and improve density within 12 weeks.",
                 delay: "150ms",
               },
               {
                 icon: "👥",
-                title: "30+ Trusted Customers",
+                title: "Trusted By 25K+ Users",
                 description:
-                  "Join our satisfied customers who have experienced thicker, healthier, and longer hair.",
+                  "Community-loved formula with thousands of five-star reviews and real transformation stories.",
                 delay: "300ms",
               },
             ].map((benefit, idx) => (
@@ -261,7 +261,7 @@ export default function Home() {
       
 
    {/* Reviews Section (Text testimonials) */}
-   <section className="py-12 md:py-20 px-3 sm:px-4 lg:px-8">
+      <section id="testimonials" className="py-12 md:py-20 px-3 sm:px-4 lg:px-8">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-8 md:mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold premium-text">Real Customer Reviews</h2>
@@ -271,47 +271,40 @@ export default function Home() {
               {
                 name: "Himanshu",
                 text:
-                  "“Using it for 3 months, my hair grew noticeably thicker and longer. Truly consistent results!”",
+                  "“Three months in, my hair feels fuller and the thinning patches at the crown are filling in beautifully.”",
               },
               {
                 name: "Rohit",
-                text:
-                "My hair fall reduced drastically, and I saw new growth in 4 months. Amazing product!",
+                text: "Hair fall reduced drastically within eight weeks, and baby hair growth is clearly visible. Amazing product!",
               },
               {
                 name: "Arjun",
-                text:
-                "I didn’t believe it at first, but after 3 months, I can see clear results. Hair feels stronger and shinier.",
+                text: "I was skeptical, but by month three the breakage stopped and my strands feel stronger and shinier.",
               },
               {
                 name: "Sahil",
                 text:
-                  "Tried everything before, nothing worked. This actually did. Hair growth and shine improved significantly.",
+                  "Tried everything else before—Grow Natural is the first serum that actually thickened my hairline.",
               },
               {
                 name: "Ritika",
                 text:
-                  "Bro trust me, it’s real. I started with thin hair, and now it feels fuller and healthier after 6 months.",
-              },
-              {
-                name: "Aman",
-                text:
-                  "Bro trust me, it’s real. I started at 5'7 and now I’m 5'10 after 6 months.",
+                  "My ponytail feels twice as thick now. The serum absorbs quickly and keeps my scalp soothed.",
               },
               {
                 name: "Karan",
                 text:
-                  "I used it regularly and saw changes slowly but steadily. My hair feels thicker and more nourished",
+                  "Used it nightly and saw steady progress. Hair feels nourished, and the shedding in the shower is minimal now.",
               },
               {
                 name: "Harsh",
                 text:
-                  "At first, I thought it’s fake, but consistency made the difference. Noticeable improvement in 3 months.",
+                  "Consistency was key—by the third month the thinning spots above my temples had started filling in.",
               },
               {
                 name: "Priya",
                 text:
-                  "Never expected it to work this well. Hair fall reduced and strands feel stronger in just 4 months.",
+                  "Never expected it to work this well. Hair fall reduced and strands feel stronger in just four months.",
               },
               {
                 name: "Tanish",
@@ -341,9 +334,9 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 text-center">
             {[
-              { number: "50K+", label: "Happy Customers" },
+              { number: "25K+", label: "Happy Customers" },
               { number: "98%", label: "Satisfaction Rate" },
-              { number: "100%", label: "Natural" },
+              { number: "100%", label: "Natural Ingredients" },
             ].map((stat, idx) => (
               <div key={idx} className="animate-fade-in-up" style={{ animationDelay: `${idx * 100}ms` }}>
                 <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-1 md:mb-2">{stat.number}</h3>
@@ -358,16 +351,16 @@ export default function Home() {
       <section className="py-12 md:py-20 px-3 sm:px-4 lg:px-8">
         <div className="max-w-3xl mx-auto text-center animate-fade-in-up">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 premium-text px-2">
-          Start Your Hair Growth Journey Today
+            Start Your Hair Growth Journey Today
           </h2>
           <p className="text-base md:text-lg text-muted-foreground mb-6 md:mb-8 max-w-2xl mx-auto leading-relaxed px-2">
-          Join thousands of satisfied customers and unlock your full hair potential. Limited time offer available.
+            Join thousands of satisfied customers and unlock your full hair potential. Limited-time savings available this week only.
           </p>
           <Link
             href="/product"
             className="inline-block px-6 md:px-10 py-3 md:py-4 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-sm md:text-base"
           >
-            Get Grow Essential Now
+            Get Grow Natural Now
           </Link>
         </div>
       </section>

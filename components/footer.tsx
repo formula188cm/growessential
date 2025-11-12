@@ -6,11 +6,11 @@ export function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 bg-primary-foreground rounded-sm flex items-center justify-center">
-                <span className="text-primary font-bold text-sm">F</span>
+                <span className="text-primary font-bold text-sm">G</span>
               </div>
-              <span className="font-bold">Grow Essential</span>
+              <span className="font-bold">Grow Natural</span>
             </div>
-            <p className="text-sm opacity-80">Premium hair growth serum for natural, healthy hair development.</p>
+            <p className="text-sm opacity-80">Premium, plant-powered serum for stronger, thicker, fuller hair.</p>
           </div>
 
           <div>
@@ -78,7 +78,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-primary-foreground/20 pt-8">
-          <p className="text-center text-sm opacity-80">Premium hair growth serum for natural, healthy hair development.</p>
+          <p className="text-center text-sm opacity-80">Premium, plant-powered serum for stronger, thicker, fuller hair.</p>
         </div>
       </div>
     </footer>

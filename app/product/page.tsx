@@ -26,38 +26,38 @@ export default function ProductPage() {
   const productSlides = [
     {
       id: 1,
-      title: "Formula188CM",
-      description: "Professional Grade Height Growth Supplement",
+      title: "Grow Natural Serum",
+      description: "Ultra-concentrated botanical blend for rooted strength",
       image: "/1.jpeg",
-      badge: "Best Seller",
+      badge: "Customer Favorite",
     },
     {
       id: 2,
-      title: "Reach New Heights",
-      description: "Advanced Growth Support",
+      title: "Follicle Revival",
+      description: "Targets thinning spots with potent ayurvedic actives",
       image: "/2.jpeg",
-      badge: "Most Popular",
+      badge: "Top Rated",
     },
     {
       id: 3,
-      title: "Premium Formula",
-      description: "Enhanced Nutrient Absorption",
+      title: "Advanced Repair",
+      description: "Locks in moisture and boosts shine, minus heavy residue",
       image: "/3.jpeg",
-      badge: "Featured",
+      badge: "Dermatologist Tested",
     },
     {
       id: 4,
-      title: "Luxury Series",
-      description: "Premium Formulation",
+      title: "Daily Ritual",
+      description: "Non-greasy finish ideal for AM & PM routines",
       image: "/4.jpeg",
-      badge: "Premium",
+      badge: "Everyday Essential",
     },
     {
       id: 5,
-      title: "Luxury Series",
-      description: "Premium Formulation",
+      title: "Radiant Finish",
+      description: "Leaves every strand glossier without weighing it down",
       image: "/5.jpeg",
-      badge: "Premium",
+      badge: "Best Seller",
     },
   ]
 
@@ -70,7 +70,7 @@ export default function ProductPage() {
           {/* Product Header - Mobile optimized layout */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 mb-12 md:mb-20">
             <div className="flex flex-col justify-center space-y-4">
-              <div className="w-full h-80 md:h-[500px] rounded-lg md:rounded-2xl overflow-hidden shadow-lg md:shadow-2xl">
+              <div className="w-full h-[420px] md:h-[640px] rounded-lg md:rounded-2xl overflow-hidden shadow-lg md:shadow-2xl">
                 <ProductCarousel slides={productSlides} />
               </div>
               <div className="grid grid-cols-2 gap-3 md:gap-4">
@@ -101,7 +101,7 @@ export default function ProductPage() {
               {/* Title */}
               <div>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-2 md:mb-4 leading-tight">
-                Grow Essential
+                Grow Natural
                 </h1>
                 <p className="text-base md:text-lg text-muted-foreground font-medium">
                 Professional Grade Hair Growth Serum
@@ -139,10 +139,10 @@ export default function ProductPage() {
               <div className="space-y-2 md:space-y-3 pb-4 md:pb-6 border-b border-border">
                 <h3 className="font-semibold text-base md:text-lg">Key Benefits</h3>
                 {[
-                  "100% Natural & Plant-Based",
-                  "Supports Bone Health",
-                  "No Artificial Additives",
-                  "Third-Party Tested",
+                  "Strengthens roots & reduces daily shedding",
+                  "Balances scalp microbiome to curb dandruff",
+                  "Boosts shine with omega-rich cold-pressed oils",
+                  "Zero parabens, mineral oils, or synthetic fragrance",
                 ].map((benefit, idx) => (
                   <div key={idx} className="flex items-start gap-2 md:gap-3 group">
                     <span className="text-green-600 mt-0.5 flex-shrink-0 text-lg md:text-xl font-bold">✓</span>
@@ -213,16 +213,16 @@ export default function ProductPage() {
             {/* Main Description */}
             <div className="lg:col-span-2 space-y-6 md:space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6">About Grow Essential</h2>
+                <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6">About Grow Natural</h2>
                 <div className="space-y-3 md:space-y-4 text-sm md:text-base text-muted-foreground leading-relaxed">
                   <p>
-                  Grow Essential is a scientifically-formulated hair growth serum designed to strengthen hair follicles, reduce hair fall, and promote natural hair growth. Our product combines the wisdom of traditional botanical ingredients with modern nutritional science.
+                  Grow Natural is a clinically formulated hair growth serum crafted to strengthen follicles, calm irritated scalps, and accelerate the regrowth cycle. Every batch combines traditional ayurvedic wisdom with modern trichology research.
                   </p>
                   <p>
-                  Each ingredient is carefully selected to nourish hair roots, improve scalp health, and enhance hair density. We source only premium-grade natural components.
+                  Each ingredient is cold-pressed and triple-filtered to preserve active compounds that nourish roots, balance sebum production, and visibly enhance hair density.
                   </p>
                   <p>
-                  Our unique blend works synergistically to stimulate hair growth, improve hair texture, and maintain long-term hair health.
+                  The lightweight blend absorbs instantly, supporting daily styling while delivering deep repair for long-term hair resilience.
                   </p>
                 </div>
               </div>
@@ -235,15 +235,19 @@ export default function ProductPage() {
                     {
                       num: "1",
                       title: "Follicle Nourishment",
-                      desc: "Strengthens hair roots with natural botanicals for healthier growth.",
+                      desc: "Feeds follicles with bhringraj, amla, and caffeine to encourage thicker regrowth.",
                     },
                     {
                       num: "2",
-                      title: "Hair Strength Support",
-                      desc: "Reduces breakage, thinning, and hair fall.",
+                      title: "Breakage Defense",
+                      desc: "Protects mid-lengths and ends with omega 3, 6 & 9 to curb snap and split ends.",
                     },
                     { num: "3", title: "Nutritional Support", desc: "Fills hair and scalp nutrient gaps for optimal hair growth." },
-                    { num: "4", title: "Long-Term Wellness", desc: "Supports sustained hair health with daily use." },
+                    {
+                      num: "4",
+                      title: "Long-Term Wellness",
+                      desc: "Keeps scalp balanced and comfortable for sustained, healthy hair cycles.",
+                    },
                   ].map((item, idx) => (
                     <div
                       key={idx}
@@ -286,15 +290,15 @@ export default function ProductPage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-3">
                       {[
                         { name: "Bhringraj (Eclipta alba)", dose: "50mg" },
-                        { name: "Bhringraj (Eclipta alba)", dose: "50mg" },
-                        { name: "Brahmi (Bacopa monnieri)", dose: "50mg" },
-                        { name: "Fenugreek (Trigonella foenum-graecum)", dose: "50mg" },
-                        { name: "Ashwagandha (Withania somnifera)", dose: "50mg" },
-                        { name: "Neem Extract (Azadirachta indica)", dose: "50mg" },
-                        { name: "Aloe Vera Extract", dose: "50mg" },
-                        { name: "Black Seed Oil (Nigella sativa)", dose: "50mg" },
-                        { name: "Gotu Kola (Centella asiatica)", dose: "50mg" },
-                        { name: "Green Tea Extract", dose: "50mg" },
+                        { name: "Rosemary Leaf Extract", dose: "35mg" },
+                        { name: "Red Onion Seed Oil", dose: "50mg" },
+                        { name: "Brahmi (Bacopa monnieri)", dose: "40mg" },
+                        { name: "Fenugreek (Trigonella foenum-graecum)", dose: "35mg" },
+                        { name: "Black Seed Oil (Nigella sativa)", dose: "40mg" },
+                        { name: "Aloe Vera Extract", dose: "30mg" },
+                        { name: "Vitamin E (D-Alpha Tocopherol)", dose: "10mg" },
+                        { name: "Biotin (Vitamin B7)", dose: "500mcg" },
+                        { name: "Caffeine Anhydrous", dose: "15mg" },
                       ].map((ingredient, idx) => (
                         <div
                           key={idx}
@@ -318,7 +322,7 @@ export default function ProductPage() {
                   <span className="text-xl md:text-2xl">⚗️</span>
                   <h4 className="font-bold text-base md:text-lg">Lab Tested</h4>
                 </div>
-                <p className="text-xs md:text-sm text-muted-foreground">Third-party tested for purity and safety.</p>
+                <p className="text-xs md:text-sm text-muted-foreground">Cold-pressed and micro-filtered for purity and safety.</p>
               </div>
 
               <div className="p-4 md:p-6 bg-gradient-to-br from-green-500/5 to-green-500/10 rounded-lg border border-green-500/20 space-y-3">
@@ -326,13 +330,13 @@ export default function ProductPage() {
                   <span className="text-xl md:text-2xl">🌿</span>
                   <h4 className="font-bold text-base md:text-lg">100% Natural</h4>
                 </div>
-                <p className="text-xs md:text-sm text-muted-foreground">No artificial fillers or binders.</p>
+                <p className="text-xs md:text-sm text-muted-foreground">No mineral oil, parabens, or artificial fragrance.</p>
               </div>
 
               <div className="p-4 md:p-6 bg-gradient-to-br from-blue-500/5 to-blue-500/10 rounded-lg border border-blue-500/20 space-y-3">
                 <div className="flex items-center gap-2 md:gap-3">
                   <span className="text-xl md:text-2xl">👥</span>
-                  <h4 className="font-bold text-base md:text-lg">30+ Customers</h4>
+                  <h4 className="font-bold text-base md:text-lg">25K+ Customers</h4>
                 </div>
                 <p className="text-xs md:text-sm text-muted-foreground">Trusted by thousands with 4.9/5 rating.</p>
               </div>
@@ -382,7 +386,7 @@ export default function ProductPage() {
                   a: "Most users report noticing changes within 2-3 months of consistent daily use.",
                 },
                 {
-                  q: "Is Grow Essential safe?",
+                  q: "Is Grow Natural safe?",
                   a: "Yes, it's made from natural ingredients and third-party tested. Consult your doctor if you have medical conditions.",
                 },
               {
@@ -414,50 +418,45 @@ export default function ProductPage() {
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold premium-text">Real Customer Reviews</h2>
           </div>
           <div className="space-y-6">
-            {[{
+            {[
+              {
                 name: "Himanshu",
                 text:
-                  "“Using it for 3 months, my hair grew noticeably thicker and longer. Truly consistent results!”",
+                  "“Three months in, my hair feels fuller and the thinning patches at the crown are filling in beautifully.”",
               },
               {
                 name: "Rohit",
-                text:
-                "My hair fall reduced drastically, and I saw new growth in 4 months. Amazing product!",
+                text: "Hair fall reduced drastically within eight weeks, and baby hair growth is clearly visible. Amazing product!",
               },
               {
                 name: "Arjun",
                 text:
-                "I didn’t believe it at first, but after 3 months, I can see clear results. Hair feels stronger and shinier.",
+                  "I was skeptical, but by month three the breakage stopped and my strands feel stronger and shinier.",
               },
               {
                 name: "Sahil",
                 text:
-                  "Tried everything before, nothing worked. This actually did. Hair growth and shine improved significantly.",
+                  "Tried everything else before—Grow Natural is the first serum that actually thickened my hairline.",
               },
               {
                 name: "Ritika",
                 text:
-                  "Bro trust me, it’s real. I started with thin hair, and now it feels fuller and healthier after 6 months.",
-              },
-              {
-                name: "Aman",
-                text:
-                  "Bro trust me, it’s real. I started at 5'7 and now I’m 5'10 after 6 months.",
+                  "My ponytail feels twice as thick now. The serum absorbs quickly and keeps my scalp soothed.",
               },
               {
                 name: "Karan",
                 text:
-                  "I used it regularly and saw changes slowly but steadily. My hair feels thicker and more nourished",
+                  "Used it nightly and saw steady progress. Hair feels nourished, and the shedding in the shower is minimal now.",
               },
               {
                 name: "Harsh",
                 text:
-                  "At first, I thought it’s fake, but consistency made the difference. Noticeable improvement in 3 months.",
+                  "Consistency was key—by the third month the thinning spots above my temples had started filling in.",
               },
               {
                 name: "Priya",
                 text:
-                  "Never expected it to work this well. Hair fall reduced and strands feel stronger in just 4 months.",
+                  "Never expected it to work this well. Hair fall reduced and strands feel stronger in just four months.",
               },
               {
                 name: "Tanish",

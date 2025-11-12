@@ -13,31 +13,38 @@ interface CarouselSlide {
 const defaultSlides: CarouselSlide[] = [
   {
     id: 1,
-    title: "Formula 188CM",
-    description: "Premium Height Growth Supplement - Natural & Scientifically Formulated",
+    title: "Grow Natural Serum",
+    description: "Cold-pressed botanical blend for stronger, thicker hair",
     image: "/1.jpeg",
-    badge: "Professional Grade",
+    badge: "Customer Favorite",
   },
   {
     id: 2,
-    title: "Reach New Heights",
-    description: "Advanced Growth Support with Natural Ingredients",
+    title: "Follicle Revival",
+    description: "Targets thinning spots with potent ayurvedic actives",
     image: "/2.jpeg",
-    badge: "Best Seller",
+    badge: "Top Rated",
   },
   {
     id: 3,
-    title: "Premium Formula",
-    description: "Golden Blend - Enhanced Nutrient Absorption",
+    title: "Advanced Repair",
+    description: "Lightweight finish with deep nourishment",
     image: "/3.jpeg",
-    badge: "Most Popular",
+    badge: "Dermatologist Tested",
   },
   {
     id: 4,
-    title: "Luxury Series",
-    description: "Premium Formulation with Advanced Benefits",
+    title: "Daily Ritual",
+    description: "Non-greasy everyday application for all hair types",
     image: "/4.jpeg",
-    badge: "Premium",
+    badge: "Everyday Essential",
+  },
+  {
+    id: 5,
+    title: "Radiant Finish",
+    description: "Leaves every strand glossier without weighing it down",
+    image: "/5.jpeg",
+    badge: "Best Seller",
   },
 ]
 
@@ -79,7 +86,7 @@ export function ProductCarousel({ slides = defaultSlides }: { slides?: CarouselS
   }
 
   return (
-    <div className="relative w-full h-full group bg-black overflow-hidden rounded-2xl shadow-2xl">
+    <div className="relative w-full h-full group bg-black overflow-hidden rounded-3xl shadow-2xl">
       <div className="relative w-full h-full flex items-center justify-center">
         {slides.map((slide, index) => (
           <div
@@ -88,33 +95,12 @@ export function ProductCarousel({ slides = defaultSlides }: { slides?: CarouselS
               index === currentSlide ? "opacity-100 scale-100" : "opacity-0 scale-98"
             }`}
           >
-            {/* Image container with proper aspect ratio and no cutting */}
-            <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-black via-gray-900 to-black p-4 sm:p-6 md:p-8">
+            <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-black via-gray-900 to-black p-4 sm:p-6 md:p-10">
               <img
                 src={slide.image || "/placeholder.svg"}
                 alt={slide.title}
-                className="max-w-full max-h-full w-auto h-auto object-contain drop-shadow-2xl"
+                className="max-w-full max-h-full object-contain drop-shadow-2xl transition-transform duration-[1500ms] ease-out group-hover:scale-[1.01]"
               />
-            </div>
-
-            {/* Premium gradient overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/40 to-transparent" />
-
-            {/* Premium content overlay */}
-            <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 md:p-10 text-white">
-              {slide.badge && (
-                <div className="mb-4 md:mb-6 animate-fade-in-down">
-                  <span className="inline-block px-4 sm:px-6 py-2 sm:py-2.5 bg-white/20 backdrop-blur-xl rounded-full text-xs sm:text-sm font-bold border border-white/40 hover:bg-white/30 hover:border-white/60 transition-all duration-300 shadow-lg">
-                    ✨ {slide.badge}
-                  </span>
-                </div>
-              )}
-              <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black mb-2 sm:mb-3 md:mb-4 animate-fade-in-up leading-tight tracking-tight drop-shadow-lg">
-                {slide.title}
-              </h2>
-              <p className="text-xs sm:text-sm md:text-lg text-white/85 animate-fade-in-up animation-delay-100 max-w-2xl font-medium leading-relaxed drop-shadow-md">
-                {slide.description}
-              </p>
             </div>
           </div>
         ))}
@@ -151,19 +137,8 @@ export function ProductCarousel({ slides = defaultSlides }: { slides?: CarouselS
         ))}
       </div>
 
-      <div className="absolute top-4 sm:top-5 md:top-6 right-4 sm:right-5 md:right-6 z-20">
-        <button
-          onClick={() => setAutoPlay(!autoPlay)}
-          className="px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm bg-white/15 hover:bg-white/30 backdrop-blur-lg rounded-full text-white transition-all duration-300 font-bold border border-white/30 shadow-lg hover:shadow-xl"
-        >
-          {autoPlay ? "▶ Auto" : "⏸ Manual"}
-        </button>
-      </div>
-
-      <div className="absolute top-4 sm:top-5 md:top-6 left-4 sm:left-5 md:left-6 z-20">
-        <div className="px-3 sm:px-4 py-1.5 sm:py-2 bg-white/15 backdrop-blur-lg rounded-full text-white text-xs sm:text-sm font-bold border border-white/30 shadow-lg">
-          {currentSlide + 1} / {slides.length}
-        </div>
+      <div className="absolute top-4 sm:top-5 md:top-6 left-4 sm:left-5 md:left-6 z-20 text-white text-xs sm:text-sm font-bold tracking-wide">
+        {currentSlide + 1} / {slides.length}
       </div>
     </div>
   )

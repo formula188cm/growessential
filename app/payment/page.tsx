@@ -7,12 +7,16 @@ import Image from "next/image"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
-import { CheckCircle2, Building2, QrCode, Copy, Check } from "lucide-react"
+import { CheckCircle2 } from "lucide-react"
 
 const WHATSAPP_NUMBER = "918989252740"
-const SUPPORT_EMAIL = "formula188cm@gmail.com"
-const UPI_ID = "ayushyaduvanshi56441@okicici"
-const PRICE_PER_UNIT = 1
+const SUPPORT_EMAIL = "care@grownatural.in"
+const RAZORPAY_LINKS: Record<number, string> = {
+  799: "https://rzp.io/l/grownatural-799",
+  1598: "https://rzp.io/l/grownatural-1598",
+  2397: "https://rzp.io/l/grownatural-2397",
+  3196: "https://rzp.io/l/grownatural-3196",
+}
 
 function PaymentContent() {
   const searchParams = useSearchParams()
@@ -20,22 +24,12 @@ function PaymentContent() {
   const method = searchParams.get("method") || "online"
   const quantity = searchParams.get("quantity") || "1"
 
-  const [selectedMethod, setSelectedMethod] = useState<string | null>(null)
   const [showSuccess, setShowSuccess] = useState(false)
-  const [copiedUPI, setCopiedUPI] = useState(false)
-
-  const handlePaymentSubmit = (paymentType: string) => {
-    setSelectedMethod(paymentType)
-  }
-
-  const copyUPI = () => {
-    navigator.clipboard.writeText(UPI_ID)
-    setCopiedUPI(true)
-    setTimeout(() => setCopiedUPI(false), 2000)
-  }
+  const totalNumber = Number(total) || 0
+  const razorpayLink = RAZORPAY_LINKS[totalNumber]
 
   const openWhatsApp = () => {
-    const message = `Hi, I need help with my Formula188CM order (₹${total})`
+    const message = `Hi, I need help with my Grow Natural order (₹${total})`
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, "_blank")
   }
 
@@ -50,7 +44,7 @@ function PaymentContent() {
             </div>
             <h1 className="text-3xl font-bold mb-4">Order Successful!</h1>
             <p className="text-muted-foreground mb-4">
-              Thank you for your order. You wil receive a call from our team shortly with your order details.
+              Thank you for choosing Grow Natural. Our care team will reach out shortly with your order details and tracking.
             </p>
             <p className="text-2xl font-bold text-primary mb-4">₹{total}</p>
             <p className="text-sm text-muted-foreground mb-8">Quantity: {quantity}</p>
@@ -114,126 +108,55 @@ function PaymentContent() {
 
           {/* Payment Methods */}
           {method === "online" && (
-            <>
-              {/* Manual UPI Payment */}
-              <div
-                className={`p-6 border-2 rounded-lg cursor-pointer transition-all mb-12 ${
-                  selectedMethod === "upi" ? "border-primary bg-primary/5" : "border-border hover:border-primary/50"
-                }`}
-                onClick={() => handlePaymentSubmit("upi")}
-              >
-                <h3 className="text-xl font-bold mb-4">Manual UPI Transfer</h3>
-                <p className="text-muted-foreground mb-6">Copy the UPI ID and send payment from your bank app</p>
+            <div className="p-6 md:p-8 border-2 border-primary/30 rounded-xl bg-primary/5 mb-12">
+              <h3 className="text-2xl font-bold mb-3">Pay Securely with Razorpay</h3>
+              <p className="text-muted-foreground mb-6">
+                Complete your UPI or card payment instantly through Razorpay. The payment link opens in a new tab.
+              </p>
 
-                <div className="p-4 bg-muted rounded-lg mb-4 flex items-center gap-3">
-                  <span className="font-mono text-lg font-semibold flex-1 break-all">{UPI_ID}</span>
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation()
-                      copyUPI()
-                    }}
-                    className="p-2 hover:bg-background rounded transition-colors flex-shrink-0"
-                    aria-label="Copy UPI ID"
+              <div className="grid gap-4 md:grid-cols-2 mb-6">
+                <div className="p-4 bg-background border border-border rounded-lg">
+                  <p className="text-sm text-muted-foreground mb-1">Amount Payable</p>
+                  <p className="text-2xl font-bold text-primary">₹{total}</p>
+                </div>
+                <div className="p-4 bg-background border border-border rounded-lg">
+                  <p className="text-sm text-muted-foreground mb-1">Quantity</p>
+                  <p className="text-2xl font-bold">{quantity}</p>
+                </div>
+              </div>
+
+              {razorpayLink ? (
+                <div className="space-y-4">
+                  <a
+                    href={razorpayLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center w-full px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors"
                   >
-                    {copiedUPI ? <Check className="w-5 h-5 text-green-600" /> : <Copy className="w-5 h-5 text-muted-foreground" />}
-                  </button>
-                </div>
-
-                <div className="p-4 bg-blue-50 border border-blue-200 rounded-lg text-sm text-blue-900">
-                  <p className="font-semibold mb-1">Amount to Send:</p>
-                  <p className="text-xl font-bold text-primary">₹{total}</p>
-                </div>
-
-                {selectedMethod === "upi" && (
+                    Pay ₹{total} via Razorpay
+                  </a>
                   <button
                     onClick={() => {
                       setTimeout(() => setShowSuccess(true), 1500)
                     }}
-                    className="w-full mt-4 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors"
+                    className="w-full px-6 py-3 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary/5 transition-colors"
                   >
-                    I've Sent the Payment
+                    I've completed the payment
                   </button>
-                )}
-              </div>
-
-              {/* Bank Transfer */}
-              <div
-                className={`p-6 border-2 rounded-lg cursor-pointer transition-all mb-12 ${
-                  selectedMethod === "bank" ? "border-primary bg-primary/5" : "border-border hover:border-primary/50"
-                }`}
-                onClick={() => handlePaymentSubmit("bank")}
-              >
-                <div className="flex items-center gap-2 mb-4">
-                  <Building2 className="w-6 h-6 text-primary" />
-                  <h3 className="text-xl font-bold">Bank Transfer</h3>
                 </div>
-
-                <div className="space-y-3 mb-4">
-                  <div className="flex justify-between py-3 border-b border-border">
-                    <span className="text-muted-foreground">Account Holder</span>
-                    <span className="font-semibold">AYUSH KUMAR</span>
-                  </div>
-                  <div className="flex justify-between py-3 border-b border-border">
-                    <span className="text-muted-foreground">Bank Name</span>
-                    <span className="font-semibold">Yes Bank</span>
-                  </div>
-                  <div className="flex justify-between py-3 border-b border-border">
-                    <span className="text-muted-foreground">Account Number</span>
-                    <span className="font-semibold">067961900000815</span>
-                  </div>
-                  <div className="flex justify-between py-3 border-b border-border">
-                    <span className="text-muted-foreground">IFSC Code</span>
-                    <span className="font-semibold">YESB0000679</span>
-                  </div>
-                  <div className="flex justify-between py-3 border-b border-border">
-                    <span className="text-muted-foreground">Account Type</span>
-                    <span className="font-semibold">Current</span>
-                  </div>
-                  <div className="flex justify-between py-3">
-                    <span className="text-muted-foreground">Amount</span>
-                    <span className="text-lg font-bold text-primary">₹{total}</span>
-                  </div>
+              ) : (
+                <div className="p-4 bg-yellow-50 border border-yellow-200 rounded-lg text-sm text-yellow-900">
+                  <p className="font-semibold mb-2">Payment link unavailable for this amount.</p>
+                  <p>
+                    Please reach out to us on WhatsApp so we can share a Razorpay link for ₹{total}.
+                  </p>
                 </div>
+              )}
 
-                {selectedMethod === "bank" && (
-                  <button
-                    onClick={() => {
-                      setTimeout(() => setShowSuccess(true), 1500)
-                    }}
-                    className="w-full px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors"
-                  >
-                    Confirm Payment Sent
-                  </button>
-                )}
-              </div>
-
-              {/* QR Code Payment */}
-              <div
-                className={`p-6 border-2 rounded-lg cursor-pointer transition-all mb-12 ${
-                  selectedMethod === "qr" ? "border-primary bg-primary/5" : "border-border hover:border-primary/50"
-                }`}
-                onClick={() => handlePaymentSubmit("qr")}
-              >
-                <div className="flex items-center gap-2 mb-4">
-                  <QrCode className="w-6 h-6 text-primary" />
-                  <h3 className="text-xl font-bold">QR Code Payment</h3>
-                </div>
-
-                {selectedMethod === "qr" && (
-                  <div className="space-y-4">
-                  <div className="text-center">
-                    <p className="text-muted-foreground mb-6">Click below to proceed to QR code payment page</p>
-                    <Link
-                      href={`/payment/qr?total=${total}&quantity=${quantity}`}
-                      className="inline-block px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors"
-                    >
-                      Go to QR Code Payment
-                    </Link>
-                    </div>
-                  </div>
-                )}
-              </div>
-            </>
+              <p className="text-xs text-muted-foreground mt-4">
+                Tip: Save your Razorpay receipt or screenshot for quick confirmation with our team.
+              </p>
+            </div>
           )}
 
           {method === "cod" && (

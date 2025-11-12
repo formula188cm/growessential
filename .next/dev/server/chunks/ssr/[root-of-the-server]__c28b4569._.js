@@ -70,8 +70,8 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$g
 ;
 ;
 const metadata = {
-    title: "Formula188CM - Premium Height Growth Supplement",
-    description: "Formula188CM is a scientifically formulated height growth supplement with 100% natural ingredients. Trusted by thousands worldwide.",
+    title: "Grow Natural - Botanical Hair Growth Serum",
+    description: "Grow Natural is a clinically tested botanical serum powered by cold-pressed oils and vitamins to reduce hair fall and restore thicker, healthier strands.",
     generator: "v0.app"
 };
 function RootLayout({ children }) {

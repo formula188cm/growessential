@@ -36,7 +36,7 @@ function Navbar() {
                                     className: "w-8 h-8 bg-primary rounded-sm flex items-center justify-center",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-primary-foreground font-bold text-sm",
-                                        children: "F"
+                                        children: "G"
                                     }, void 0, false, {
                                         fileName: "[project]/formula188cmtabletnewdesign-main/components/navbar.tsx",
                                         lineNumber: 17,
@@ -49,7 +49,7 @@ function Navbar() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "font-bold text-lg hidden sm:block text-foreground",
-                                    children: "Grow Essential"
+                                    children: "Grow Natural"
                                 }, void 0, false, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/components/navbar.tsx",
                                     lineNumber: 19,
@@ -250,7 +250,7 @@ function Footer() {
                                             className: "w-8 h-8 bg-primary-foreground rounded-sm flex items-center justify-center",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-primary font-bold text-sm",
-                                                children: "F"
+                                                children: "G"
                                             }, void 0, false, {
                                                 fileName: "[project]/formula188cmtabletnewdesign-main/components/footer.tsx",
                                                 lineNumber: 9,
@@ -263,7 +263,7 @@ function Footer() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "font-bold",
-                                            children: "Grow Essential"
+                                            children: "Grow Natural"
                                         }, void 0, false, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/components/footer.tsx",
                                             lineNumber: 11,
@@ -277,7 +277,7 @@ function Footer() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm opacity-80",
-                                    children: "Premium hair growth serum for natural, healthy hair development."
+                                    children: "Premium, plant-powered serum for stronger, thicker, fuller hair."
                                 }, void 0, false, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/components/footer.tsx",
                                     lineNumber: 13,
@@ -509,7 +509,7 @@ function Footer() {
                     className: "border-t border-primary-foreground/20 pt-8",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-center text-sm opacity-80",
-                        children: "Premium hair growth serum for natural, healthy hair development."
+                        children: "Premium, plant-powered serum for stronger, thicker, fuller hair."
                     }, void 0, false, {
                         fileName: "[project]/formula188cmtabletnewdesign-main/components/footer.tsx",
                         lineNumber: 81,
@@ -554,7 +554,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$
 const WHATSAPP_NUMBER = "8989252740";
 function WhatsAppButton() {
     const openWhatsApp = ()=>{
-        const message = encodeURIComponent("Hi, I need help with Formula188CM");
+        const message = encodeURIComponent("Hi, I need help with Grow Natural");
         window.open(`https://wa.me/91${WHATSAPP_NUMBER}?text=${message}`, "_blank");
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -600,7 +600,7 @@ function generateOrderId() {
     const random = Math.random().toString(36).substring(2, 8).toUpperCase();
     return `ORD-${timestamp}-${random}`;
 }
-async function submitToGoogleSheets(data, orderId, sheetName = "Sheet4") {
+async function submitToGoogleSheets(data, orderId, sheetName = "Sheet1") {
     try {
         const payloadData = {
             name: `${data.firstName} ${data.lastName}`,
@@ -822,7 +822,7 @@ function CheckoutContent() {
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                                                     className: "font-semibold text-sm md:text-base",
-                                                                                    children: "Online Payment"
+                                                                                    children: "Online Payment (Razorpay)"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/checkout/page.tsx",
                                                                                     lineNumber: 132,
@@ -836,7 +836,7 @@ function CheckoutContent() {
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                             className: "text-xs md:text-sm text-muted-foreground ml-7",
-                                                                            children: "UPI, QR Code, Bank Transfer"
+                                                                            children: "Instant UPI, cards & wallets via Razorpay"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/formula188cmtabletnewdesign-main/app/checkout/page.tsx",
                                                                             lineNumber: 134,
@@ -1181,7 +1181,7 @@ function CheckoutContent() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "text-muted-foreground",
                                                             children: [
-                                                                "Formula188CM × ",
+                                                                "Grow Natural Serum × ",
                                                                 quantity
                                                             ]
                                                         }, void 0, true, {

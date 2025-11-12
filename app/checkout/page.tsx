@@ -129,9 +129,9 @@ function CheckoutContent() {
                     >
                       <div className="flex items-center gap-2 md:gap-3 mb-2">
                         <input type="radio" checked={paymentMethod === "online"} readOnly />
-                        <h3 className="font-semibold text-sm md:text-base">Online Payment</h3>
+                        <h3 className="font-semibold text-sm md:text-base">Online Payment (Razorpay)</h3>
                       </div>
-                      <p className="text-xs md:text-sm text-muted-foreground ml-7">UPI, QR Code, Bank Transfer</p>
+                      <p className="text-xs md:text-sm text-muted-foreground ml-7">Instant UPI, cards & wallets via Razorpay</p>
                       <p className="text-base md:text-lg font-bold text-primary mt-2 ml-7">₹{ONLINE_PRICE}</p>
                     </div>
 
@@ -304,7 +304,7 @@ function CheckoutContent() {
 
                 <div className="space-y-3 md:space-y-4 pb-4 md:pb-6 border-b border-border mb-4 md:mb-6 text-sm md:text-base">
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Formula188CM × {quantity}</span>
+                    <span className="text-muted-foreground">Grow Natural Serum × {quantity}</span>
                     <span className="font-semibold">₹{currentPrice > 0 ? totalPrice : "-"}</span>
                   </div>
                 </div>

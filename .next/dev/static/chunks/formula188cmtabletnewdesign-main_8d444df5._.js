@@ -36,7 +36,7 @@ function Navbar() {
                                     className: "w-8 h-8 bg-primary rounded-sm flex items-center justify-center",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-primary-foreground font-bold text-sm",
-                                        children: "F"
+                                        children: "G"
                                     }, void 0, false, {
                                         fileName: "[project]/formula188cmtabletnewdesign-main/components/navbar.tsx",
                                         lineNumber: 17,
@@ -49,7 +49,7 @@ function Navbar() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "font-bold text-lg hidden sm:block text-foreground",
-                                    children: "Grow Essential"
+                                    children: "Grow Natural"
                                 }, void 0, false, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/components/navbar.tsx",
                                     lineNumber: 19,
@@ -250,7 +250,7 @@ function Footer() {
                                             className: "w-8 h-8 bg-primary-foreground rounded-sm flex items-center justify-center",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-primary font-bold text-sm",
-                                                children: "F"
+                                                children: "G"
                                             }, void 0, false, {
                                                 fileName: "[project]/formula188cmtabletnewdesign-main/components/footer.tsx",
                                                 lineNumber: 9,
@@ -263,7 +263,7 @@ function Footer() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "font-bold",
-                                            children: "Grow Essential"
+                                            children: "Grow Natural"
                                         }, void 0, false, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/components/footer.tsx",
                                             lineNumber: 11,
@@ -277,7 +277,7 @@ function Footer() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm opacity-80",
-                                    children: "Premium hair growth serum for natural, healthy hair development."
+                                    children: "Premium, plant-powered serum for stronger, thicker, fuller hair."
                                 }, void 0, false, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/components/footer.tsx",
                                     lineNumber: 13,
@@ -509,7 +509,7 @@ function Footer() {
                     className: "border-t border-primary-foreground/20 pt-8",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-center text-sm opacity-80",
-                        children: "Premium hair growth serum for natural, healthy hair development."
+                        children: "Premium, plant-powered serum for stronger, thicker, fuller hair."
                     }, void 0, false, {
                         fileName: "[project]/formula188cmtabletnewdesign-main/components/footer.tsx",
                         lineNumber: 81,
@@ -555,31 +555,38 @@ var _s = __turbopack_context__.k.signature();
 const defaultSlides = [
     {
         id: 1,
-        title: "Formula 188CM",
-        description: "Premium Height Growth Supplement - Natural & Scientifically Formulated",
-        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/33-3NmR7Ht0sVJ6PVqkfe6l8MvSekXSCK.jpg",
-        badge: "Professional Grade"
+        title: "Grow Natural Serum",
+        description: "Cold-pressed botanical blend for stronger, thicker hair",
+        image: "/1.jpeg",
+        badge: "Customer Favorite"
     },
     {
         id: 2,
-        title: "Reach New Heights",
-        description: "Advanced Growth Support with Natural Ingredients",
-        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/22-ElqzjDe5ZGHnB0ZWAHP0xfF0vshXPp.jpg",
-        badge: "Best Seller"
+        title: "Follicle Revival",
+        description: "Targets thinning spots with potent ayurvedic actives",
+        image: "/2.jpeg",
+        badge: "Top Rated"
     },
     {
         id: 3,
-        title: "Premium Formula",
-        description: "Golden Blend - Enhanced Nutrient Absorption",
-        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/44-RbEPHe3M0S5KP0t7hcALao98TIPCpV.jpg",
-        badge: "Most Popular"
+        title: "Advanced Repair",
+        description: "Lightweight finish with deep nourishment",
+        image: "/3.jpeg",
+        badge: "Dermatologist Tested"
     },
     {
         id: 4,
-        title: "Luxury Series",
-        description: "Premium Formulation with Advanced Benefits",
-        image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/11-8N6DVhVWmtJW6JHcxxOCfw6y851Ec6.jpg",
-        badge: "Premium"
+        title: "Daily Ritual",
+        description: "Non-greasy everyday application for all hair types",
+        image: "/4.jpeg",
+        badge: "Everyday Essential"
+    },
+    {
+        id: 5,
+        title: "Radiant Finish",
+        description: "Leaves every strand glossier without weighing it down",
+        image: "/5.jpeg",
+        badge: "Best Seller"
     }
 ];
 function ProductCarousel({ slides = defaultSlides }) {
@@ -625,88 +632,36 @@ function ProductCarousel({ slides = defaultSlides }) {
         setTimeout(()=>setAutoPlay(true), 8000);
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "relative w-full h-full group bg-black overflow-hidden rounded-2xl shadow-2xl",
+        className: "relative w-full h-full group bg-black overflow-hidden rounded-3xl shadow-2xl",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "relative w-full h-full flex items-center justify-center",
                 children: slides.map((slide, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: `absolute inset-0 transition-all duration-1000 ease-in-out flex items-center justify-center ${index === currentSlide ? "opacity-100 scale-100" : "opacity-0 scale-98"}`,
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "w-full h-full flex items-center justify-center bg-gradient-to-br from-black via-gray-900 to-black p-4 sm:p-6 md:p-8",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    src: slide.image || "/placeholder.svg",
-                                    alt: slide.title,
-                                    className: "max-w-full max-h-full w-auto h-auto object-contain drop-shadow-2xl"
-                                }, void 0, false, {
-                                    fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                                    lineNumber: 93,
-                                    columnNumber: 15
-                                }, this)
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "w-full h-full flex items-center justify-center bg-gradient-to-br from-black via-gray-900 to-black p-4 sm:p-6 md:p-10",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                src: slide.image || "/placeholder.svg",
+                                alt: slide.title,
+                                className: "max-w-full max-h-full object-contain drop-shadow-2xl transition-transform duration-[1500ms] ease-out group-hover:scale-[1.01]"
                             }, void 0, false, {
                                 fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                                lineNumber: 92,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "absolute inset-0 bg-gradient-to-t from-black/95 via-black/40 to-transparent"
-                            }, void 0, false, {
-                                fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                                lineNumber: 101,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "absolute bottom-0 left-0 right-0 p-4 sm:p-6 md:p-10 text-white",
-                                children: [
-                                    slide.badge && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "mb-4 md:mb-6 animate-fade-in-down",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "inline-block px-4 sm:px-6 py-2 sm:py-2.5 bg-white/20 backdrop-blur-xl rounded-full text-xs sm:text-sm font-bold border border-white/40 hover:bg-white/30 hover:border-white/60 transition-all duration-300 shadow-lg",
-                                            children: [
-                                                "✨ ",
-                                                slide.badge
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                                            lineNumber: 107,
-                                            columnNumber: 19
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                                        lineNumber: 106,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black mb-2 sm:mb-3 md:mb-4 animate-fade-in-up leading-tight tracking-tight drop-shadow-lg",
-                                        children: slide.title
-                                    }, void 0, false, {
-                                        fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                                        lineNumber: 112,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-xs sm:text-sm md:text-lg text-white/85 animate-fade-in-up animation-delay-100 max-w-2xl font-medium leading-relaxed drop-shadow-md",
-                                        children: slide.description
-                                    }, void 0, false, {
-                                        fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                                        lineNumber: 115,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                                lineNumber: 104,
-                                columnNumber: 13
+                                lineNumber: 99,
+                                columnNumber: 15
                             }, this)
-                        ]
-                    }, slide.id, true, {
+                        }, void 0, false, {
+                            fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
+                            lineNumber: 98,
+                            columnNumber: 13
+                        }, this)
+                    }, slide.id, false, {
                         fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                        lineNumber: 85,
+                        lineNumber: 92,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                lineNumber: 83,
+                lineNumber: 90,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -716,7 +671,7 @@ function ProductCarousel({ slides = defaultSlides }) {
                 children: "❮"
             }, void 0, false, {
                 fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                lineNumber: 123,
+                lineNumber: 109,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -726,7 +681,7 @@ function ProductCarousel({ slides = defaultSlides }) {
                 children: "❯"
             }, void 0, false, {
                 fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                lineNumber: 131,
+                lineNumber: 117,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -737,53 +692,30 @@ function ProductCarousel({ slides = defaultSlides }) {
                         "aria-label": `Go to slide ${index + 1}`
                     }, index, false, {
                         fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                        lineNumber: 141,
+                        lineNumber: 127,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                lineNumber: 139,
+                lineNumber: 125,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute top-4 sm:top-5 md:top-6 right-4 sm:right-5 md:right-6 z-20",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                    onClick: ()=>setAutoPlay(!autoPlay),
-                    className: "px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm bg-white/15 hover:bg-white/30 backdrop-blur-lg rounded-full text-white transition-all duration-300 font-bold border border-white/30 shadow-lg hover:shadow-xl",
-                    children: autoPlay ? "▶ Auto" : "⏸ Manual"
-                }, void 0, false, {
-                    fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                    lineNumber: 155,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
+                className: "absolute top-4 sm:top-5 md:top-6 left-4 sm:left-5 md:left-6 z-20 text-white text-xs sm:text-sm font-bold tracking-wide",
+                children: [
+                    currentSlide + 1,
+                    " / ",
+                    slides.length
+                ]
+            }, void 0, true, {
                 fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                lineNumber: 154,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute top-4 sm:top-5 md:top-6 left-4 sm:left-5 md:left-6 z-20",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "px-3 sm:px-4 py-1.5 sm:py-2 bg-white/15 backdrop-blur-lg rounded-full text-white text-xs sm:text-sm font-bold border border-white/30 shadow-lg",
-                    children: [
-                        currentSlide + 1,
-                        " / ",
-                        slides.length
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                    lineNumber: 164,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                lineNumber: 163,
+                lineNumber: 140,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-        lineNumber: 82,
+        lineNumber: 89,
         columnNumber: 5
     }, this);
 }
@@ -810,7 +742,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$
 const WHATSAPP_NUMBER = "8989252740";
 function WhatsAppButton() {
     const openWhatsApp = ()=>{
-        const message = encodeURIComponent("Hi, I need help with Formula188CM");
+        const message = encodeURIComponent("Hi, I need help with Grow Natural");
         window.open(`https://wa.me/91${WHATSAPP_NUMBER}?text=${message}`, "_blank");
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -960,7 +892,7 @@ function Home() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "relative w-full h-96 sm:h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden bg-black",
+                className: "relative w-full h-[460px] sm:h-[600px] md:h-[700px] lg:h-[820px] overflow-hidden bg-black",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0",
@@ -1075,7 +1007,7 @@ function Home() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-sm md:text-base text-muted-foreground max-w-2xl mx-auto leading-relaxed",
-                                        children: "Break the age barrier! Grow Essential is scientifically formulated to support hair regrowth, thickness, and shine for individuals over 21, delivering visible results you can trust."
+                                        children: "Grow Natural is a cold-pressed botanical serum that reawakens dormant follicles, restores scalp balance, and delivers visible thickness in as little as 8 weeks."
                                     }, void 0, false, {
                                         fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
                                         lineNumber: 115,
@@ -1223,7 +1155,7 @@ function Home() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed px-2",
-                                children: "Grow Essential uses 100% natural ingredients designed to strengthen hair follicles, reduce hair fall, and promote faster, healthier hair growth."
+                                children: "Grow Natural blends potent ayurvedic oils, vitamins, and antioxidants to anchor roots, reduce fall, and promote faster regrowth for men and women."
                             }, void 0, false, {
                                 fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
                                 lineNumber: 170,
@@ -1364,7 +1296,7 @@ function Home() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     className: "text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4 premium-text px-2",
-                                    children: "Why Choose Grow Essential?"
+                                    children: "Why Choose Grow Natural?"
                                 }, void 0, false, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
                                     lineNumber: 213,
@@ -1389,20 +1321,20 @@ function Home() {
                             children: [
                                 {
                                     icon: "🌿",
-                                    title: "100% Natural Ingredients",
-                                    description: "Formulated with pure, clinically-tested natural ingredients without harmful additives or fillers.",
+                                    title: "Cold-Pressed Botanicals",
+                                    description: "Infused with bhringraj, rosemary, and onion seed oils to nourish scalp microbiome without harsh chemicals.",
                                     delay: "0ms"
                                 },
                                 {
                                     icon: "⚗️",
-                                    title: "Scientifically Formulated",
-                                    description: "Developed by experts to nourish hair roots, prevent breakage, and support optimal hair growth.",
+                                    title: "Clinic-Tested Results",
+                                    description: "Dermatologist-approved formulation proven to reduce hair fall and improve density within 12 weeks.",
                                     delay: "150ms"
                                 },
                                 {
                                     icon: "👥",
-                                    title: "30+ Trusted Customers",
-                                    description: "Join our satisfied customers who have experienced thicker, healthier, and longer hair.",
+                                    title: "Trusted By 25K+ Users",
+                                    description: "Community-loved formula with thousands of five-star reviews and real transformation stories.",
                                     delay: "300ms"
                                 }
                             ].map((benefit, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1459,6 +1391,7 @@ function Home() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                id: "testimonials",
                 className: "py-12 md:py-20 px-3 sm:px-4 lg:px-8",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-5xl mx-auto",
@@ -1483,39 +1416,35 @@ function Home() {
                             children: [
                                 {
                                     name: "Himanshu",
-                                    text: "“Using it for 3 months, my hair grew noticeably thicker and longer. Truly consistent results!”"
+                                    text: "“Three months in, my hair feels fuller and the thinning patches at the crown are filling in beautifully.”"
                                 },
                                 {
                                     name: "Rohit",
-                                    text: "My hair fall reduced drastically, and I saw new growth in 4 months. Amazing product!"
+                                    text: "Hair fall reduced drastically within eight weeks, and baby hair growth is clearly visible. Amazing product!"
                                 },
                                 {
                                     name: "Arjun",
-                                    text: "I didn’t believe it at first, but after 3 months, I can see clear results. Hair feels stronger and shinier."
+                                    text: "I was skeptical, but by month three the breakage stopped and my strands feel stronger and shinier."
                                 },
                                 {
                                     name: "Sahil",
-                                    text: "Tried everything before, nothing worked. This actually did. Hair growth and shine improved significantly."
+                                    text: "Tried everything else before—Grow Natural is the first serum that actually thickened my hairline."
                                 },
                                 {
                                     name: "Ritika",
-                                    text: "Bro trust me, it’s real. I started with thin hair, and now it feels fuller and healthier after 6 months."
-                                },
-                                {
-                                    name: "Aman",
-                                    text: "Bro trust me, it’s real. I started at 5'7 and now I’m 5'10 after 6 months."
+                                    text: "My ponytail feels twice as thick now. The serum absorbs quickly and keeps my scalp soothed."
                                 },
                                 {
                                     name: "Karan",
-                                    text: "I used it regularly and saw changes slowly but steadily. My hair feels thicker and more nourished"
+                                    text: "Used it nightly and saw steady progress. Hair feels nourished, and the shedding in the shower is minimal now."
                                 },
                                 {
                                     name: "Harsh",
-                                    text: "At first, I thought it’s fake, but consistency made the difference. Noticeable improvement in 3 months."
+                                    text: "Consistency was key—by the third month the thinning spots above my temples had started filling in."
                                 },
                                 {
                                     name: "Priya",
-                                    text: "Never expected it to work this well. Hair fall reduced and strands feel stronger in just 4 months."
+                                    text: "Never expected it to work this well. Hair fall reduced and strands feel stronger in just four months."
                                 },
                                 {
                                     name: "Tanish",
@@ -1532,12 +1461,12 @@ function Home() {
                                                     className: `w-4 h-4 ${i < 5 ? 'fill-yellow-400 text-yellow-400' : 'fill-gray-300 text-gray-300'}`
                                                 }, i, false, {
                                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                                                    lineNumber: 325,
+                                                    lineNumber: 318,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                                            lineNumber: 323,
+                                            lineNumber: 316,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1545,7 +1474,7 @@ function Home() {
                                             children: r.text
                                         }, void 0, false, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                                            lineNumber: 328,
+                                            lineNumber: 321,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1556,26 +1485,26 @@ function Home() {
                                                     children: "🙂"
                                                 }, void 0, false, {
                                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                                                    lineNumber: 330,
+                                                    lineNumber: 323,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: r.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                                                    lineNumber: 331,
+                                                    lineNumber: 324,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                                            lineNumber: 329,
+                                            lineNumber: 322,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, idx, true, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                                    lineNumber: 322,
+                                    lineNumber: 315,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
@@ -1592,7 +1521,7 @@ function Home() {
             }, void 0, false, {
                 fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
                 lineNumber: 264,
-                columnNumber: 4
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "py-12 md:py-16 px-3 sm:px-4 lg:px-8 bg-primary text-primary-foreground",
@@ -1602,7 +1531,7 @@ function Home() {
                         className: "grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 text-center",
                         children: [
                             {
-                                number: "50K+",
+                                number: "25K+",
                                 label: "Happy Customers"
                             },
                             {
@@ -1611,7 +1540,7 @@ function Home() {
                             },
                             {
                                 number: "100%",
-                                label: "Natural"
+                                label: "Natural Ingredients"
                             }
                         ].map((stat, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "animate-fade-in-up",
@@ -1624,7 +1553,7 @@ function Home() {
                                         children: stat.number
                                     }, void 0, false, {
                                         fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                                        lineNumber: 349,
+                                        lineNumber: 342,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1632,28 +1561,28 @@ function Home() {
                                         children: stat.label
                                     }, void 0, false, {
                                         fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                                        lineNumber: 350,
+                                        lineNumber: 343,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, idx, true, {
                                 fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                                lineNumber: 348,
+                                lineNumber: 341,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                        lineNumber: 342,
+                        lineNumber: 335,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                    lineNumber: 341,
+                    lineNumber: 334,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                lineNumber: 340,
+                lineNumber: 333,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1666,45 +1595,45 @@ function Home() {
                             children: "Start Your Hair Growth Journey Today"
                         }, void 0, false, {
                             fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                            lineNumber: 360,
+                            lineNumber: 353,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-base md:text-lg text-muted-foreground mb-6 md:mb-8 max-w-2xl mx-auto leading-relaxed px-2",
-                            children: "Join thousands of satisfied customers and unlock your full hair potential. Limited time offer available."
+                            children: "Join thousands of satisfied customers and unlock your full hair potential. Limited-time savings available this week only."
                         }, void 0, false, {
                             fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                            lineNumber: 363,
+                            lineNumber: 356,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "/product",
                             className: "inline-block px-6 md:px-10 py-3 md:py-4 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-sm md:text-base",
-                            children: "Get Grow Essential Now"
+                            children: "Get Grow Natural Now"
                         }, void 0, false, {
                             fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                            lineNumber: 366,
+                            lineNumber: 359,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                    lineNumber: 359,
+                    lineNumber: 352,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                lineNumber: 358,
+                lineNumber: 351,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$components$2f$footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Footer"], {}, void 0, false, {
                 fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                lineNumber: 375,
+                lineNumber: 368,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$components$2f$whatsapp$2d$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["WhatsAppButton"], {}, void 0, false, {
                 fileName: "[project]/formula188cmtabletnewdesign-main/app/page.tsx",
-                lineNumber: 376,
+                lineNumber: 369,
                 columnNumber: 7
             }, this)
         ]
